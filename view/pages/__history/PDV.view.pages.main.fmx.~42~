@@ -1,0 +1,643 @@
+object PageMain: TPageMain
+  Left = 0
+  Top = 0
+  ClientHeight = 533
+  ClientWidth = 870
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 870.000000000000000000
+    Size.Height = 533.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 470.000000000000000000
+      Size.Height = 533.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout5: TLayout
+        Align = Bottom
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 15.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 15.000000000000000000
+        Position.Y = 469.000000000000000000
+        Size.Width = 470.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle6: TRectangle
+          Align = Right
+          Fill.Color = claNull
+          Margins.Right = 20.000000000000000000
+          Position.X = 200.000000000000000000
+          Position.Y = 15.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claRed
+          XRadius = 6.000000000000000000
+          YRadius = 6.000000000000000000
+          object SpeedButton2: TSpeedButton
+            Align = Client
+            StyledSettings = [Size, Style]
+            Size.Width = 120.000000000000000000
+            Size.Height = 34.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Cancelar Pedido'
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.FontColor = claRed
+          end
+        end
+        object Rectangle7: TRectangle
+          Align = Right
+          Fill.Color = claNull
+          Position.X = 340.000000000000000000
+          Position.Y = 15.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFF0DA06A
+          XRadius = 6.000000000000000000
+          YRadius = 6.000000000000000000
+          object SpeedButton3: TSpeedButton
+            Align = Client
+            StyledSettings = [Size, Style]
+            Size.Width = 120.000000000000000000
+            Size.Height = 34.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Manter Pedido'
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.FontColor = xFF0DA06A
+          end
+        end
+      end
+      object Layout6: TLayout
+        Align = Bottom
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 10.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Position.Y = 384.000000000000000000
+        Size.Width = 470.000000000000000000
+        Size.Height = 85.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object FlowLayout2: TFlowLayout
+          Align = Client
+          Size.Width = 455.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Justify = Left
+          JustifyLastLine = Left
+          FlowDirection = LeftToRight
+        end
+      end
+      object Layout7: TLayout
+        Align = Client
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 10.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Size.Width = 470.000000000000000000
+        Size.Height = 384.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle2: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Size.Width = 450.000000000000000000
+          Size.Height = 364.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Layout12: TLayout
+            Align = Top
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Size.Width = 450.000000000000000000
+            Size.Height = 63.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object SpeedButton4: TSpeedButton
+              Align = Left
+              StyledSettings = [Style]
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 58.000000000000000000
+              Size.PlatformDefault = False
+              Text = '+ ADD NOVO ITEM'
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.FontColor = xFF0DA06A
+              OnClick = SpeedButton4Click
+            end
+            object Layout13: TLayout
+              Align = Right
+              Position.X = 168.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 272.000000000000000000
+              Size.Height = 58.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Layout14: TLayout
+                Align = Client
+                Padding.Left = 10.000000000000000000
+                Padding.Top = 10.000000000000000000
+                Padding.Right = 10.000000000000000000
+                Padding.Bottom = 10.000000000000000000
+                Size.Width = 222.000000000000000000
+                Size.Height = 58.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object RoundRect1: TRoundRect
+                  Align = Client
+                  Fill.Color = xFFF1F1F1
+                  Padding.Left = 10.000000000000000000
+                  Padding.Top = 10.000000000000000000
+                  Padding.Right = 10.000000000000000000
+                  Padding.Bottom = 10.000000000000000000
+                  Size.Width = 202.000000000000000000
+                  Size.Height = 38.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  object Edit1: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    StyleLookup = 'transparentedit'
+                    TabOrder = 0
+                    Text = 'Pesquise aqui os itens...'
+                    TextSettings.Font.Family = 'Roboto'
+                    TextSettings.FontColor = xFFB6B6B6
+                    Size.Width = 182.000000000000000000
+                    Size.Height = 18.000000000000000000
+                    Size.PlatformDefault = False
+                    StyledSettings = [Size, Style]
+                    OnClick = Edit1Click
+                  end
+                end
+              end
+              object Layout15: TLayout
+                Align = Right
+                Padding.Left = 10.000000000000000000
+                Padding.Top = 10.000000000000000000
+                Padding.Right = 10.000000000000000000
+                Padding.Bottom = 10.000000000000000000
+                Position.X = 222.000000000000000000
+                Size.Width = 50.000000000000000000
+                Size.Height = 58.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Circle1: TCircle
+                  Align = Client
+                  Fill.Color = xFF0DA06A
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 38.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  object Image1: TImage
+                    MultiResBitmap = <
+                      item
+                      end>
+                    Align = Client
+                    Margins.Left = 8.000000000000000000
+                    Margins.Top = 8.000000000000000000
+                    Margins.Right = 8.000000000000000000
+                    Margins.Bottom = 8.000000000000000000
+                    Size.Width = 14.000000000000000000
+                    Size.Height = 22.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object SpeedButton5: TSpeedButton
+                    Align = Client
+                    Size.Width = 30.000000000000000000
+                    Size.Height = 38.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+            end
+          end
+          object HorzScrollBox1: THorzScrollBox
+            Align = Client
+            Size.Width = 450.000000000000000000
+            Size.Height = 301.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Viewport.Width = 450.000000000000000000
+            Viewport.Height = 301.000000000000000000
+            object FlowLayout1: TFlowLayout
+              Align = Top
+              Size.Width = 450.000000000000000000
+              Size.Height = 281.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Justify = Left
+              JustifyLastLine = Left
+              FlowDirection = LeftToRight
+            end
+          end
+        end
+        object ShadowEffect2: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.400000005960464500
+          ShadowColor = claBlack
+        end
+      end
+    end
+    object Layout2: TLayout
+      Align = Right
+      Position.X = 470.000000000000000000
+      Size.Width = 400.000000000000000000
+      Size.Height = 533.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout3D1: TLayout3D
+        Height = 4.000000000000000000
+        Width = 5.000000000000000000
+      end
+      object Layout3: TLayout
+        Align = Bottom
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 15.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 15.000000000000000000
+        Position.Y = 469.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Rectangle5: TRectangle
+          Align = Client
+          Fill.Color = xFF0DA06A
+          Size.Width = 380.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 6.000000000000000000
+          YRadius = 6.000000000000000000
+          object Label7: TLabel
+            Align = Left
+            StyledSettings = []
+            Margins.Right = 2.000000000000000000
+            Size.Width = 177.000000000000000000
+            Size.Height = 34.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Trailing
+            Text = 'Pagar'
+            TabOrder = 1
+          end
+          object Label8: TLabel
+            Align = Client
+            StyledSettings = []
+            Margins.Left = 2.000000000000000000
+            Size.Width = 199.000000000000000000
+            Size.Height = 34.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+            Text = '(R$ 23,00)'
+            TabOrder = 0
+          end
+          object SpeedButton1: TSpeedButton
+            Align = Contents
+            Size.Width = 380.000000000000000000
+            Size.Height = 34.000000000000000000
+            Size.PlatformDefault = False
+            OnClick = SpeedButton1Click
+          end
+        end
+        object ShadowEffect1: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.300000011920929000
+          ShadowColor = claBlack
+        end
+      end
+      object Layout4: TLayout
+        Align = Client
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 10.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 469.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle1: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Size.Width = 380.000000000000000000
+          Size.Height = 449.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Layout8: TLayout
+            Align = Top
+            Size.Width = 380.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object Label1: TLabel
+              Align = Client
+              StyledSettings = [FontColor]
+              Size.Width = 380.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.HorzAlign = Center
+              Text = 'Checkout'
+              TabOrder = 0
+            end
+            object Layout3D2: TLayout3D
+              Height = 4.000000000000000000
+              Width = 5.000000000000000000
+            end
+          end
+          object Layout9: TLayout
+            Align = Top
+            Position.Y = 50.000000000000000000
+            Size.Width = 380.000000000000000000
+            Size.Height = 31.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object Rectangle3: TRectangle
+              Align = Client
+              Fill.Color = xFFF1F1F1
+              Padding.Left = 30.000000000000000000
+              Padding.Top = 5.000000000000000000
+              Padding.Right = 15.000000000000000000
+              Padding.Bottom = 5.000000000000000000
+              Size.Width = 380.000000000000000000
+              Size.Height = 31.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Label2: TLabel
+                Align = Left
+                StyledSettings = [Size, Style]
+                Position.X = 30.000000000000000000
+                Position.Y = 5.000000000000000000
+                Size.Width = 120.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.FontColor = xFFB6B6B6
+                Text = 'Nome'
+                TabOrder = 1
+              end
+              object Label3: TLabel
+                Align = Right
+                StyledSettings = [Size, Style]
+                Position.X = 245.000000000000000000
+                Position.Y = 5.000000000000000000
+                Size.Width = 120.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.FontColor = xFFB6B6B6
+                TextSettings.HorzAlign = Trailing
+                Text = 'Pre'#231'o'
+                TabOrder = 2
+              end
+              object Label4: TLabel
+                Align = Client
+                StyledSettings = [Size, Style]
+                Size.Width = 95.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.FontColor = xFFB6B6B6
+                TextSettings.HorzAlign = Center
+                Text = 'Qtd'
+                TabOrder = 3
+              end
+            end
+          end
+          object Layout10: TLayout
+            Align = Bottom
+            Position.Y = 279.000000000000000000
+            Size.Width = 380.000000000000000000
+            Size.Height = 120.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object Rectangle4: TRectangle
+              Align = Client
+              Fill.Color = xFFF1F1F1
+              Size.Width = 380.000000000000000000
+              Size.Height = 120.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Layout16: TLayout
+                Align = Bottom
+                Padding.Left = 10.000000000000000000
+                Padding.Top = 5.000000000000000000
+                Padding.Right = 15.000000000000000000
+                Padding.Bottom = 5.000000000000000000
+                Size.Width = 380.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Label13: TLabel
+                  Align = Left
+                  StyledSettings = [Style]
+                  Margins.Right = 1.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 79.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xFFB6B6B6
+                  Text = 'Desconto (%)'
+                  TabOrder = 2
+                end
+                object Rectangle8: TRectangle
+                  Align = Right
+                  Fill.Color = claWhite
+                  Margins.Top = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Position.X = 345.000000000000000000
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 20.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  XRadius = 2.000000000000000000
+                  YRadius = 2.000000000000000000
+                  object Label15: TLabel
+                    Align = Client
+                    StyledSettings = [Family, Style]
+                    Size.Width = 20.000000000000000000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 11.000000000000000000
+                    TextSettings.FontColor = xFFB6B6B6
+                    TextSettings.HorzAlign = Center
+                    Text = '10'
+                    TabOrder = 0
+                  end
+                end
+              end
+              object Layout17: TLayout
+                Align = Bottom
+                Padding.Left = 10.000000000000000000
+                Padding.Top = 5.000000000000000000
+                Padding.Right = 15.000000000000000000
+                Padding.Bottom = 5.000000000000000000
+                Position.Y = 40.000000000000000000
+                Size.Width = 380.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                object Label12: TLabel
+                  Align = Left
+                  StyledSettings = [Style]
+                  Margins.Right = 1.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 55.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xFFB6B6B6
+                  Text = 'SubTotal'
+                  TabOrder = 2
+                end
+                object Label14: TLabel
+                  Align = Client
+                  StyledSettings = [Style]
+                  Size.Width = 299.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xFFB6B6B6
+                  TextSettings.HorzAlign = Trailing
+                  Text = 'R$ 22,00'
+                  TabOrder = 0
+                end
+              end
+              object Layout18: TLayout
+                Align = Bottom
+                Padding.Left = 10.000000000000000000
+                Padding.Top = 5.000000000000000000
+                Padding.Right = 15.000000000000000000
+                Padding.Bottom = 5.000000000000000000
+                Position.Y = 80.000000000000000000
+                Size.Width = 380.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label9: TLabel
+                  Align = Left
+                  StyledSettings = [Style]
+                  Margins.Right = 1.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 31.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xFFB6B6B6
+                  Text = 'Taxa'
+                  TabOrder = 2
+                end
+                object Label10: TLabel
+                  Align = Left
+                  StyledSettings = [Style]
+                  Margins.Right = 2.000000000000000000
+                  Position.X = 42.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 31.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xFF0DA06A
+                  Text = '1,0%'
+                  TabOrder = 1
+                end
+                object Label11: TLabel
+                  Align = Client
+                  StyledSettings = [Style]
+                  Size.Width = 290.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xFFB6B6B6
+                  TextSettings.HorzAlign = Trailing
+                  Text = 'R$ 1,00'
+                  TabOrder = 0
+                end
+              end
+            end
+          end
+          object Layout11: TLayout
+            Align = Bottom
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 10.000000000000000000
+            Padding.Right = 15.000000000000000000
+            Padding.Bottom = 10.000000000000000000
+            Position.Y = 399.000000000000000000
+            Size.Width = 380.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object Label5: TLabel
+              Align = Left
+              StyledSettings = [Style, FontColor]
+              Position.X = 10.000000000000000000
+              Position.Y = 10.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 15.000000000000000000
+              Text = 'Total'
+              TabOrder = 1
+            end
+            object Label6: TLabel
+              Align = Client
+              StyledSettings = [Style]
+              Size.Width = 235.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.FontColor = xFF0DA06A
+              TextSettings.HorzAlign = Trailing
+              Text = 'R$ 23,00'
+              TabOrder = 0
+            end
+          end
+        end
+        object ShadowEffect3: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.400000005960464500
+          ShadowColor = claBlack
+        end
+      end
+    end
+  end
+end
