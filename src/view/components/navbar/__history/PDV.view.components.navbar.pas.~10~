@@ -1,0 +1,39 @@
+unit PDV.view.components.navbar;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.StdCtrls, PDV.view.source.utils,
+  FMX.Effects;
+
+type
+  TComponentsNavBar = class(TForm)
+    LayoutContainer: TLayout;
+    Rectangle1: TRectangle;
+    Layout1: TLayout;
+    ShadowEffect1: TShadowEffect;
+    Layout2: TLayout;
+    Layout3: TLayout;
+  private
+    { Private declarations }
+  public
+    function build : TFmxObject;
+  end;
+
+var
+  ComponentsNavBar: TComponentsNavBar;
+
+implementation
+
+{$R *.fmx}
+
+{ TComponentsNavBar }
+
+function TComponentsNavBar.build: TFmxObject;
+begin
+  Result := LayoutContainer;
+end;
+
+end.

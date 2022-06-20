@@ -1,0 +1,48 @@
+unit PDV.view.components.itembutton;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, PDV.view.source.utils;
+
+type
+  TCompButton = class(TForm)
+    Layout1: TLayout;
+    Layout2: TLayout;
+    Layout3: TLayout;
+    lblPreco: TLabel;
+    lblDescricao: TLabel;
+    Layout4: TLayout;
+    Image1: TImage;
+    Rectangle1: TRectangle;
+    SpeedButton1: TSpeedButton;
+  private
+    FItem : Integer;
+    FFramed : TFramedVertScrollBox;
+  public
+    { Public declarations }
+    function Recursos(Item: Integer; Framed: TFramedVertScrollBox;
+         Imagem, Descricao, Valor : string): TCompButton;
+  end;
+
+var
+  CompButton: TCompButton;
+
+implementation
+
+{$R *.fmx}
+
+{ TCompButton }
+
+function TCompButton.Recursos(Item: Integer; Framed: TFramedVertScrollBox;
+         Imagem, Descricao, Valor : string): TCompButton;
+begin
+  Result := Self;
+  lblDescricao.Text := Descricao;
+  lblPreco.Text := Valor;
+  TUtils.ResourceImage(Imagem, Image1);
+end;
+
+end.
