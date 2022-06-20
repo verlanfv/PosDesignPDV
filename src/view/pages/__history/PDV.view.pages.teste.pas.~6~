@@ -1,0 +1,44 @@
+unit PDV.view.pages.teste;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects, Router4D.Interfaces,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.StdCtrls,
+  PDV.view.components.navbar;
+
+type
+  TTeste = class(TForm, iRouter4DComponent)
+    LayoutContainer: TLayout;
+    LayoutNavBar: TLayout;
+    LayoutBody: TLayout;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function Render : TFmxObject;
+    procedure UnRender;
+  end;
+
+var
+  Teste: TTeste;
+
+implementation
+
+{$R *.fmx}
+
+{ TTeste }
+
+function TTeste.Render: TFmxObject;
+begin
+  Result := LayoutContainer;
+  LayoutNavBar.AddObject(TComponentsNavBar.Create(Self).Build);
+end;
+
+procedure TTeste.UnRender;
+begin
+
+end;
+
+end.

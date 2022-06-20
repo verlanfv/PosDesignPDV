@@ -1,0 +1,132 @@
+inherited PageMain_XLgXhdpiTb: TPageMain_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited LayoutContainer: TLayout
+    Size.Width = 800.000000000000000000
+    Size.Height = 1255.000000000000000000
+    inherited Layout1: TLayout
+      Size.Width = 400.000000000000000000
+      Size.Height = 1255.000000000000000000
+      inherited Layout5: TLayout
+        Position.Y = 1191.000000000000000000
+        Size.Width = 400.000000000000000000
+        inherited Rectangle6: TRectangle
+          Position.X = 130.000000000000000000
+          inherited SpeedButton2: TSpeedButton
+            Size.Height = 48.000000000000000000
+          end
+        end
+        inherited Rectangle7: TRectangle
+          Position.X = 270.000000000000000000
+          inherited SpeedButton3: TSpeedButton
+            Size.Height = 48.000000000000000000
+          end
+        end
+      end
+      inherited Layout6: TLayout
+        Position.Y = 1106.000000000000000000
+        Size.Width = 400.000000000000000000
+        inherited HorzScrollBox1: THorzScrollBox
+          Size.Width = 385.000000000000000000
+          Viewport.Width = 385.000000000000000000
+          Viewport.Height = 65.000000000000000000
+        end
+      end
+      inherited Layout7: TLayout
+        Size.Width = 400.000000000000000000
+        Size.Height = 1106.000000000000000000
+        inherited Rectangle2: TRectangle
+          Size.Width = 380.000000000000000000
+          Size.Height = 1086.000000000000000000
+          inherited Layout12: TLayout
+            Size.Width = 380.000000000000000000
+            inherited SpeedButton4: TSpeedButton
+              Position.Y = 10.000000000000000000
+              Size.Height = 48.000000000000000000
+            end
+            inherited Layout13: TLayout
+              Position.X = 98.000000000000000000
+              inherited Layout14: TLayout
+                inherited RoundRect1: TRoundRect
+                  inherited Edit1: TEdit
+                    Size.Height = 32.000000000000000000
+                  end
+                end
+              end
+              inherited Layout15: TLayout
+                inherited Circle1: TCircle
+                  inherited SpeedButton5: TSpeedButton
+                    Size.Height = 48.000000000000000000
+                  end
+                end
+              end
+            end
+          end
+        end
+        inherited VertScrollBox1: TVertScrollBox
+          Viewport.Width = 450.000000000000000000
+          Viewport.Height = 95.000000000000000000
+          inherited Button1: TButton
+            Position.X = 16.000000000000000000
+          end
+          inherited Button17: TButton
+            Position.X = 16.000000000000000000
+          end
+          inherited Button19: TButton
+            Position.X = 16.000000000000000000
+          end
+        end
+      end
+    end
+    inherited Layout2: TLayout
+      Position.X = 400.000000000000000000
+      Size.Height = 1255.000000000000000000
+      inherited Layout3: TLayout
+        Position.Y = 1191.000000000000000000
+        inherited Rectangle5: TRectangle
+          inherited Label7: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Label8: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited SpeedButton1: TSpeedButton
+            Size.Height = 48.000000000000000000
+          end
+        end
+      end
+      inherited Layout4: TLayout
+        Size.Height = 1191.000000000000000000
+        inherited Rectangle1: TRectangle
+          Size.Height = 1171.000000000000000000
+          inherited Layout8: TLayout
+            inherited Label1: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+          inherited Layout10: TLayout
+            Position.Y = 1001.000000000000000000
+            inherited Rectangle4: TRectangle
+              inherited Layout16: TLayout
+                Margins.Left = 10.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 15.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Position.X = 10.000000000000000000
+                Position.Y = -5.000000000000000000
+                Size.Width = 355.000000000000000000
+                inherited Rectangle8: TRectangle
+                  Position.X = 320.000000000000000000
+                end
+              end
+            end
+          end
+          inherited Layout11: TLayout
+            Position.Y = 1121.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

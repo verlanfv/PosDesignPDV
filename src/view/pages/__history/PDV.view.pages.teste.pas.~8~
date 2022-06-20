@@ -1,0 +1,59 @@
+unit PDV.view.pages.teste;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects, Router4D.Interfaces,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.StdCtrls,
+  PDV.view.components.navbar;
+
+type
+  TTeste = class(TForm, iRouter4DComponent)
+    LayoutContainer: TLayout;
+    Label1: TLabel;
+    Rectangle1: TRectangle;
+    VertScrollBox1: TVertScrollBox;
+    FlowLayout1: TFlowLayout;
+  private
+    { Private declarations }
+    procedure CarregaItens;
+  public
+    { Public declarations }
+    function Render : TFmxObject;
+    procedure UnRender;
+  end;
+
+var
+  Teste: TTeste;
+
+implementation
+
+{$R *.fmx}
+
+{ TTeste }
+
+procedure TTeste.CarregaItens;
+var
+  i: Integer;
+begin
+  for i := 1 to 10 do
+  begin
+    FlowLayout1.AddObject(
+      TCompButton.Create(Self).Recursos('bebida'+i.ToString, 'Red Bull', '9,99').Layout1
+    );
+  end;
+end;
+
+function TTeste.Render: TFmxObject;
+begin
+  Result := LayoutContainer;
+  //LayoutNavBar.AddObject(TComponentsNavBar.Create(Self).Build);
+end;
+
+procedure TTeste.UnRender;
+begin
+
+end;
+
+end.
