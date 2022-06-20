@@ -1,0 +1,20 @@
+inherited PageApp_LgXhdpiPh: TPageApp_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited LayoutContainer: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited Rectangle1: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+    end
+    inherited LayoutNavBar: TLayout
+      Size.Width = 450.000000000000000000
+    end
+    inherited LayoutBody: TLayout
+      Size.Width = 450.000000000000000000
+      Size.Height = 645.000000000000000000
+    end
+  end
+end
